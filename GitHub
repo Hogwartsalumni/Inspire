@@ -1,0 +1,29 @@
+tabs that are open-cloud9, github, heroku
+
+go to github, click create new repository
+dont do steps yet
+
+1 command) rm -rf .git and enter(initialized an empty repository)
+2 command) git init
+3 command) git add . (nothing should happen)
+4 command) copy git remote add origin from github, paste in command line, enter, nothing should happen
+5 command) git commit -m "final project deploy(message, anything you want)"
+6 command) git push origin master, will ask for username, and password(wont display password)
+
+go to heroku dashboard
+click create new app, app name must be lowercase and all one word
+click create app
+deployment method = github(down the screen a bit)
+type in password for authorization
+connect to github(below deployment method), search for repository(exact), click search
+should get repository and click connect
+should see automatic deploys(will automaticly update site)
+enable automatic deploys
+deploying master branch
+click deploy branch
+view site!!!!!!!!
+
+TO UPDATE BRANCH W/ NEW COMMITS
+1) git add .
+2) git commit -m "final project deploy(message, anything you want)"
+3) git push origin master, will ask for username, and password(wont display password)
