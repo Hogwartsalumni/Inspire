@@ -7,9 +7,10 @@ input {
     width: 55%;
     text-decoration: none;
     display: inline-block;
-    margin: 10px 20%;
+    margin: 10px 10px;
     cursor: pointer;
     border-radius: 8px;
+    overflow-wrap: normal;
 }
 
 img {
