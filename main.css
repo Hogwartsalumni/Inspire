@@ -1,10 +1,10 @@
 button {
     color: #36449C;
     text-align: center;
-    font-family: Nunito;
+    font-family: Pacifico;
     font-size: 60px;
     border: none;
-    width: 55%;
+    width: 65%;
     margin: 10px 10px;
     cursor: pointer;
     border-radius: 8px;
@@ -14,4 +14,10 @@ button {
 img {
   width: 450px;
   height: 450px;
+}
+
+p {
+  color: #262b49;
+  font-family: Nunito;
+  font-size: 18px;
 }
