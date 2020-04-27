@@ -1,16 +1,14 @@
-input {
+button {
     color: #36449C;
     text-align: center;
     font-family: Nunito;
     font-size: 60px;
     border: none;
     width: 55%;
-    text-decoration: none;
-    display: inline-block;
     margin: 10px 10px;
     cursor: pointer;
     border-radius: 8px;
-    overflow-wrap: normal;
+    overflow: auto;
 }
 
 img {
